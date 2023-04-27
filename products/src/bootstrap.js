@@ -14,7 +14,7 @@ const mount = (el) => {
 if (process.env.NODE_ENV === 'development') {
   const el = document.querySelector('#dev-products');
 
-  if (elf) mount(el);
+  if (el) mount(el);
 }
 
 export { mount };
